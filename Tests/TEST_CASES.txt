@@ -1,0 +1,9 @@
+Basic acceptance tests (use a fresh copy of Data each time)
+
+Case 1: Menu -> 2 Display -> 9 Exit. See Student 101 and Course 201.
+Case 2: Menu -> 6 Enroll -> Student 102 -> Course 201. Success.
+Case 3: After Case 2, enroll Student 103 -> Course 201. Error: Course is full.
+Case 4: Enroll Student 101 -> Course 201. Error: Already enrolled.
+Case 5: Menu -> 3 Search Student 101. Prints Aarav Shah.
+Case 6: Menu -> 7 Report. Prints filled / capacity of each course.
+Case 7: Menu -> 8 Save, exit, run again, display: saved records remain.
